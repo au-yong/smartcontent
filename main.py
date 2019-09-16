@@ -15,7 +15,7 @@ def generate_news_posts(imageUrl):
         news = get_news_with_category(term)
         news_post += news
     return news_post
-print(GetImageInfo().info('data/blonde.jpg'))
+print(GetImageInfo().info('data/cat.jpg'))
 # with open('quotes.json',"r") as file:
 #     quotes = json.load(file)
 #     quote_contents = ""
